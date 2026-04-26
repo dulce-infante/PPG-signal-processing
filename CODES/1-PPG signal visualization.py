@@ -10,7 +10,7 @@ ppg = df[y_col].dropna().values  #remove NaNs
 
 #acquisition parameters
 N = len(ppg)
-tiempo_seg = 122
+tiempo_seg = 60
 fs = N / tiempo_seg
 
 #create time data
